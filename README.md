@@ -1,9 +1,11 @@
-# mqtt-km200
+# buderus2mqtt_Dockercontainer
 
 Written and (C) 2015-18 Kai Kramer, based on an idea and code from Andreas Hahn.
 Build with https://github.com/hobbyquaker/xyz2mqtt-skeleton from Sebastian Raff.
 
 Provided under the terms of the MIT license.
+
+This fork provides an dockercontainer runnig on arm-boards like banana pi or rasbpberry pi
 
 ## Overview
 
