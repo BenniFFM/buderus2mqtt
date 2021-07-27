@@ -17,5 +17,3 @@ COPY km200mqtt.js .
 COPY scan.js .
 VOLUME ["/data"]
 CMD ./km200mqtt.js 
-
-# docker run --env-file /docker/km200/km200.env -v /docker/km200/data:/data -it km200
