@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build --tag km200mqtt .
+docker build --tag my/km200mqtt .
