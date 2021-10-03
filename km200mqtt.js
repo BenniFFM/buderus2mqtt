@@ -34,7 +34,8 @@ mqtt.on('connect', function () {
   mqtt.subscribe(config.name + '/set/#');
 
   checkKM200();
-  setInterval(checkKM200, 60000);
+  log.info('interval in millisecondes set to:', config.interval);
+  setInterval(checkKM200, config.interval);
 });
 
 mqtt.on('close', function () {
