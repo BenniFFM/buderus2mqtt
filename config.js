@@ -8,6 +8,7 @@ var config = require('yargs')
   .describe('p', 'KM200 passcode')
   .describe('k', 'KM200 host')
   .describe('c', 'KM200 measurment file')
+  .describe('t', 'KM200 interval')
   .describe('h', 'show help')
   .describe('insecure', 'allow tls connections with invalid certificates')
   .boolean('insecure')
@@ -18,6 +19,7 @@ var config = require('yargs')
     'k': 'km200',
     'p': 'passcode',
     'c': 'config',
+    't': 'interval',
     'v': 'verbosity'
   })
   .default({
